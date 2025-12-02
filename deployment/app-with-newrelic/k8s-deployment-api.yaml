@@ -26,7 +26,7 @@ spec:
       terminationGracePeriodSeconds: 30     
       containers:
         - name: backend-api
-          image: taloc/dotnet:withnewrelic
+          image: trainer1234/dotnet:withnewrelic
           imagePullPolicy: IfNotPresent
           ports:
             - name: app

@@ -27,7 +27,7 @@ spec:
 
       containers:
         - name: frontend
-          image: taloc/react-crud-app:withoutnewrelic
+          image: trainer1234/react-crud-app:withoutnewrelic
           imagePullPolicy: Always
           ports:
             - name: app

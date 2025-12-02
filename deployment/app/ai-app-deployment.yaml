@@ -24,7 +24,7 @@ spec:
 
       containers:
       - name: chatbot
-        image: taloc/python:withoutnewrelic
+        image: trainer1234/python:withoutnewrelic
         ports:
         - containerPort: 5000
           name: http

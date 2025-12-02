@@ -26,7 +26,7 @@ spec:
       terminationGracePeriodSeconds: 30
       containers:
         - name: frontend
-          image: taloc/react-crud-app:withnewrelic
+          image: trainer1234/react-crud-app:withnewrelic
           imagePullPolicy: Always
           ports:
             - name: app

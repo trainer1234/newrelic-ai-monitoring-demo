@@ -4,7 +4,7 @@
 
 set -euo pipefail
 
-DOCKER_USER="taloc"
+DOCKER_USER="trainer1234"
 
 # Accepts 'with-newrelic' or 'without-newrelic' as the first argument
 MODE="${1:-without-newrelic}"
